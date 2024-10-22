@@ -77,15 +77,21 @@
             text-align: center;
         }
         .hero h1 {
-            font-size: 96px;
-            color: #2ecc71;
-            margin-bottom: 20px;
-            text-shadow: 
-                -2px -2px 0 #fff,  
-                2px -2px 0 #fff,
-                -2px 2px 0 #fff,
-                2px 2px 0 #fff;
-        }
+    font-size: 96px;
+    color: #2ecc71;
+    margin-bottom: 20px;
+    text-shadow: 
+        /* 内側の白い縁取り */
+        0 0 10px #fff,
+        0 0 10px #fff,
+        0 0 10px #fff,
+        0 0 10px #fff,
+        /* 外側の白い縁取り */
+        0 0 20px #fff,
+        0 0 20px #fff,
+        0 0 20px #fff,
+        0 0 20px #fff;
+}
         .hero p {
             font-size: 36px;
             color: #ffffff;
